@@ -1,0 +1,189 @@
+/**
+ * Created by jindrichdolezal on 02.05.2023
+ */
+
+@font-face {
+    font-family: "Cherry Bomb";
+    src: url("../../Font/CherryBomb-Regular.ttf") format("truetype");
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    align-content: center;
+}
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.beerbackground-zc2qt-kscaled1 {
+    top: 0px;
+    left: -879px;
+    width: 2560px;
+    height: 1860px;
+    position: absolute;
+}
+.rectangle7 {
+    top: 0px;
+    left: -1px;
+    width: 100%;
+    height: 115px;
+    position: absolute;
+    background-color: snow;
+}
+.text {
+    top: 33px;
+    left: 561px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    text-align: left;
+    font-family: "Cherry Bomb", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text02 {
+    top: 42px;
+    left: 112px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text04 {
+    top: 42px;
+    left: 1212px;
+    color: rgba(0, 0, 0, 1);
+    width: 96px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text06 {
+    top: 210px;
+    left: 284px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.rectangle8 {
+    top: 416px;
+    left: 139px;
+    width: 251px;
+    height: 250px;
+    position: absolute;
+}
+.rectangle9 {
+    top: 416px;
+    left: 989px;
+    width: 251px;
+    height: 250px;
+    position: absolute;
+}
+.rectangle10 {
+    top: 416px;
+    left: 564px;
+    width: 251px;
+    height: 250px;
+    position: absolute;
+}
+.img4053241 {
+    top: 416px;
+    left: 185px;
+    width: 158px;
+    height: 153px;
+    position: absolute;
+}
+.text08 {
+    top: 608px;
+    left: 198px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.breweryicon131 {
+    top: 416px;
+    left: 581px;
+    width: 216px;
+    height: 153px;
+    position: absolute;
+}
+.text10 {
+    top: 608px;
+    left: 587px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.image30677061 {
+    top: 389px;
+    left: 1019px;
+    width: 192px;
+    height: 180px;
+    position: absolute;
+}
+.text12 {
+    top: 608px;
+    left: 994px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.ec-m7apobi1 {
+    top: 32px;
+    left: 1128px;
+    width: 51px;
+    height: 43px;
+    position: absolute;
+}
