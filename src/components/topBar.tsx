@@ -25,11 +25,13 @@ function TopBar(){
           <span>account</span>
         </span>
       </Link>
-      <img
+      <Link to="/shoppingCart"><img
         src={require("../Content/ecM7apobi.png")}
         alt="ecM7apobi11100"
         className={styles['ec-m7apobi1']}
-      />
+      /><link/>
+
+      </Link>
     </div>
   );
 }
