@@ -1,0 +1,135 @@
+/**
+ * Created by jindrichdolezal on 02.05.2023
+ */
+
+@font-face {
+    font-family: "Cherry Bomb";
+    src: url("../../Font/CherryBomb-Regular.ttf") format("truetype");
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.login {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.beerbackground-zc2qt-kscaled1 {
+    top: 0px;
+    left: -879px;
+    width: 2560px;
+    height: 1860px;
+    position: absolute;
+}
+.rectangle1 {
+    top: auto;
+    left: auto;
+    align-self: center;
+    margin-left: 400px;
+    width: 731px;
+    height: 503px;
+    position: absolute;
+    align-content: center;
+    background-color: snow;
+}
+.rectangle4 {
+    top: auto;
+    left: auto;
+    width: 178px;
+    height: 69px;
+    position: absolute;
+}
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text02 {
+    top: auto;
+    left: auto;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text04 {
+    top: 336px;
+    left: 401px;
+    color: rgba(0, 0, 0, 1);
+    width: 113px;
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text06 {
+    top: 453px;
+    left: 401px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.text08 {
+    top: 291px;
+    left: 595px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    text-align: left;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.rectangle2 {
+    margin-top: 100px;
+    align-content: center;
+    width: 480px;
+    height: 41px;
+    position: absolute;
+}
+.rectangle3 {
+    margin-top: 50px;
+    width: 480px;
+    height: 41px;
+    position: absolute;
+}
