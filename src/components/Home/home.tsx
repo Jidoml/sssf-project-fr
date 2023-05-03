@@ -2,6 +2,7 @@ import React from 'react'
 
 import styles from './home.module.css'
 import TopBar from "../topBar";
+import {Link} from "react-router-dom";
 
 function Home() {
   return (
@@ -38,9 +39,11 @@ function Home() {
           alt="breweryicon131160"
           className={styles['breweryicon131']}
         />
-        <span className={styles['text10']}>
+        <Link to="/productOffer"><link/>
+          <span className={styles['text10']}>
           <span>Product offer</span>
         </span>
+        </Link>
         <img
           src={require("../../Content/3067706.png")}
           alt="IMAGE30677061162"

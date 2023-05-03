@@ -15,6 +15,13 @@
     top: 0;
     align-content: center;
 }
+.containerList {
+
+    left: 200px;
+    top: 100px;
+    margin-top: 30px;
+    align-content: center;
+}
 .home {
     width: 100%;
     height: 100%;
@@ -25,11 +32,11 @@
     background-color: rgba(255, 255, 255, 1);
 }
 .beerbackground-zc2qt-kscaled1 {
+    position: fixed;
     top: 0px;
     left: -879px;
     width: 2560px;
     height: 1860px;
-    position: absolute;
 }
 .rectangle7 {
     top: 0px;
