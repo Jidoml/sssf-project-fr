@@ -13,14 +13,15 @@
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0pt;
+    top: 80pt;
     align-content: center;
 }
 .containerList {
-    left: 200px;
-    top: 100px;
+    left: 120pt;
+    top: 100pt;
     margin-top: 30px;
     align-content: center;
+    position: relative;
 }
 .home {
     width: 100%;
@@ -49,6 +50,20 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+.mainText{
+    margin-left: 50pt;
+    margin-top: 100pt;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    text-align: left;
+    font-family: "Cherry Bomb", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
 .text{
     margin-left: 20px;
     margin-top: 10px;
@@ -62,4 +77,43 @@
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
+}
+.simpleText{
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Cherry Bomb", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.button1{
+    position: relative;
+    width: 204px;
+    height: 60px;
+    top: 100pt;
+    left: 120pt;
+    background: #E7C485;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button2{
+    position: relative;
+    width: 204px;
+    height: 60px;
+    align-self: flex-start;
+    margin-left: 500pt;
+    top: 100pt;
+    left: 120pt;
+    background: #E59C18;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bottomField {
+    width: 204px;
+    height: 200px;
+    margin-bottom: 100pt;
+    top: 100pt;
+    left: 120pt;
 }
