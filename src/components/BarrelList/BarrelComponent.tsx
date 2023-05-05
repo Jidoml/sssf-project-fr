@@ -44,7 +44,13 @@ function BarrelComponent(props: BarrelProps) {
         <Box className={styles['text']}>
           <h3>PRODUCT INFO</h3>
           <p>NAME: {barrelById.drink.name}</p>
-          <td>{barrelById.available && !barrelIds?.includes(barrelById.id) ? <button className={styles['button']} onClick={handleClick}>Add to Bag</button> : <p>IN CART</p>}</td>
+          <p>{barrelById.available && !barrelIds?.includes(barrelById.id) ?
+            <p>
+              <button className={styles['button']} onClick={handleClick}>
+                <span className={styles['simpleText']}>Add to bag</span>
+              </button>
+            </p>
+            : <p>IN CART</p>}</p>
         </Box>
         <Box className={styles['textRight']}>
           <p>{barrelById.volume}L</p>

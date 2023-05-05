@@ -1,4 +1,3 @@
-import react from 'react';
 import Barrels from "../../interfaces/Barrels";
 import React from "react";
 import gql from 'graphql-tag';
@@ -29,10 +28,6 @@ export const GET_BARRELS_BY_DRINK = gql`
         }
     }
 `;
-
-interface barrelByDrinkData {
-  barrelByDrink: Barrels[];
-}
 
 function BarrelList() {
   const {drinkId} = useParams();
