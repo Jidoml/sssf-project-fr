@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {gql, useMutation} from '@apollo/client';
 import {useNavigate} from "react-router-dom";
+import styles from '../Login/login.module.css';
 
 export const REGISTER = gql`
     mutation Register($user: UserInput!) {
@@ -71,24 +72,32 @@ function RegisterForm() {
   };
 
   return (
+    <div  className={styles['perInfoForm']}>
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="username">Username:</label>
-        <input type="text" id="username" name="username" value={variables.username} onChange={handleChange} />
+        <p className={styles['formText']}>Username</p>
+        <label htmlFor="username">
+        <input type="text" id="username" name="username" value={variables.username} onChange={handleChange}  className={styles['formLabel']}/>
+        </label>
       </div>
       <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={variables.email} onChange={handleChange} />
+        <p className={styles['formText']}>Email</p>
+        <label htmlFor="email">
+          <input type="email" id="email" name="email" value={variables.email} onChange={handleChange}  className={styles['formLabel']}/>
+        </label>
       </div>
       <div>
-        <label htmlFor="password">Password:</label>
-        <input type="password" id="password" name="password" value={variables.password} onChange={handleChange} />
+        <p className={styles['formText']}>Password</p>
+        <label htmlFor="password">
+          <input type="password" id="password" name="password" value={variables.password} onChange={handleChange}  className={styles['formLabel']}/>
+        </label>
       </div>
-      <button type="submit" disabled={loading}>
+      <button type="submit" disabled={loading} className={styles['button']}>
         {loading ? 'Loading...' : 'Register'}
       </button>
       {error && <p>{error.message}</p>}
     </form>
+    </div>
   );
 }
 
