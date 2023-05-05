@@ -66,7 +66,7 @@ function Login({ onLogin }: LoginFormProps) {
         setToken(token);
         setId(userId);
         onLogin(token, userId);
-        navigate('/user');
+        navigate('/');
       }
     } catch (e) {
       console.error(e);
@@ -120,7 +120,7 @@ function Login({ onLogin }: LoginFormProps) {
             </div>
             <td>
               <button type="submit" disabled={loading} className={styles['button']}>
-                {loading ? 'Loading...' : 'Log in'}
+                {loading ? 'Loading...' : 'Home'}
               </button>
             </td>
             {error && <p>{error.message}</p>}
