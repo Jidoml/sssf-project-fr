@@ -66,7 +66,7 @@ function Login({ onLogin }: LoginFormProps) {
         setToken(token);
         setId(userId);
         onLogin(token, userId);
-        navigate('/');
+        navigate('/user');
       }
     } catch (e) {
       console.error(e);
