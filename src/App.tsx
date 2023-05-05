@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/home";
@@ -11,8 +10,9 @@ import { setToken, setId} from './Reducer/authSlice';
 import UserDetail from "./components/UserInformation/UserDetail";
 import {useAppDispatch} from "./Reducer/hooks";
 import Register from "./components/Register/Register";
-import styles from "./components/Home/home.module.css";
-import TopBar from "./components/topBar";
+import CheckOutPage from "./components/CheckOut/checkOutPage";
+import Thanks from "./components/Thanks/thanks";
+import WhyCraftBeer from "./components/WhyCraftBeer/whyCraftBeer";
 
 function App() {
   const dispatch = useAppDispatch();
@@ -26,6 +26,7 @@ function App() {
   <Router>
     <Routes>
       <Route path="/" element={<Home/>}/>
+      <Route path="/whyCraftBeer" element={<WhyCraftBeer />}/>
 
       <Route path="/login" element={<Login  onLogin={handleLogin}/>} />
 
@@ -37,6 +38,9 @@ function App() {
       <Route path="/productOffer/:drinkId" element={<BarrelList />} />
 
       <Route path="/shoppingCart" element={<ShoppingCart />} />
+
+      <Route path="/checkOut" element={<CheckOutPage />} />
+      <Route path="/thanks" element={<Thanks />} />
     </Routes>
   </Router>
   );
