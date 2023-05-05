@@ -39,12 +39,4 @@ export const { setBarrelId, clearBarrelId, addBarrelId } = cartSlice.actions;
 
 export const selectBarrelIds = (state: RootState) => state.cart.barrelId;
 
-export const checkBarrelId = (state: RootState, barrelId: string) => {
-  if (state.cart.barrelId) {
-    if (state.cart.barrelId.includes(barrelId)) {
-      return true;
-    }
-  }
-  return false;
-}
 export default cartSlice.reducer;
