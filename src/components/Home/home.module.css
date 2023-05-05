@@ -194,3 +194,21 @@
     height: 43px;
     position: absolute;
 }
+.textOnly {
+    top: 100pt;
+    left: 300pt;
+    width: 400pt;
+    justify-content: center;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: Cherry Bomb, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}

@@ -9,13 +9,11 @@ import {
   createHttpLink,
   InMemoryCache
 } from '@apollo/client';
-import DrinkList from "./components/DrinkList/DrinkList";
-import Home from "./components/Home/home";
 import { Provider } from 'react-redux';
 import store from './Reducer/store';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3000/graphql'
+  uri: 'https://sssf-take-a-beer-be.azurewebsites.net/graphql'
 });
 
 const client = new ApolloClient({

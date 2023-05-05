@@ -49,9 +49,11 @@ function Home() {
           alt="IMAGE30677061162"
           className={styles['image30677061']}
         />
+        <Link to={'/whyCraftBeer'}>
         <span className={styles['text12']}>
           <span>Why craft beer?</span>
         </span>
+        </Link>
       </div>
     </div>
   )
