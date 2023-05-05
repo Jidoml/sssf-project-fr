@@ -5,6 +5,7 @@ import gql from "graphql-tag";
 import User from "../../interfaces/User";
 import {useMutation} from "@apollo/client";
 import {setId, setToken} from "../../Reducer/authSlice";
+import TopBar from "../topBar";
 
 const LOGIN_MUTATION = gql`
     mutation Login($credentials: Credentials!) {
@@ -80,40 +81,51 @@ function Login({ onLogin }: LoginFormProps) {
           alt="beerbackgroundZC2QTEKscaled115"
           className={styles['beerbackground-zc2qt-kscaled1']}
         />
-        <span className={styles['text']}>
-            <span>sing in</span>
-          </span>
-        <div className={styles["rectangle1"]}>
-        <form onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="username">Username</label>
-            <input
-              type="text"
-              id="username"
-              name="username"
-              value={credentials.username}
-              onChange={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              value={credentials.password}
-              onChange={handleChange}
-            />
-          </div>
-          <button type="submit" disabled={loading}>
-            {loading ? 'Loading...' : 'Log in'}
-          </button>
-          {error && <p>{error.message}</p>}
-        </form>
+        <TopBar/>
+        <div>
+          <Link to={'/register'} className={styles['text']}>
+            <span>Want's register?</span>
+          </Link>
         </div>
-        <Link to={'/register'} className={styles['text']}>
-          <span>Register</span>
-        </Link>
+        <span className={styles['question']}>
+            <span>Sing in</span>
+          </span>
+        <div className={styles["perInfoForm"]}>
+          <form onSubmit={handleSubmit}>
+            <div>
+              <p className={styles['formText']}>Username</p>
+              <label htmlFor="username">
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  value={credentials.username}
+                  onChange={handleChange}
+                  className={styles['formLabel']}
+                />
+              </label>
+            </div>
+            <div>
+              <p className={styles['formText']} >Password</p>
+              <label htmlFor="password">
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  value={credentials.password}
+                  onChange={handleChange}
+                  className={styles['formLabel']}
+                />
+              </label>
+            </div>
+            <td>
+              <button type="submit" disabled={loading} className={styles['button']}>
+                {loading ? 'Loading...' : 'Log in'}
+              </button>
+            </td>
+            {error && <p>{error.message}</p>}
+          </form>
+        </div>
       </div>
     </div>
   )
