@@ -120,7 +120,7 @@ function Login({ onLogin }: LoginFormProps) {
             </div>
             <td>
               <button type="submit" disabled={loading} className={styles['button']}>
-                {loading ? 'Loading...' : 'Home'}
+                {loading ? 'Loading...' : 'Login'}
               </button>
             </td>
             {error && <p>{error.message}</p>}
